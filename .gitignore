@@ -1,0 +1,14 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform working directories
+.terraform/
+.terraform.lock.hcl
+
+# Local environment variables
+*.tfvars
+*.tfvars.json
+
+# OS files
+.DS_Store
