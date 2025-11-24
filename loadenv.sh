@@ -1,3 +1,6 @@
 #!/bin/bash
-export $(grep -v '^#' .env | xargs)
+set -o allexport
+source .env
+set +o allexport
 echo "Environment variables loaded!"
+
