@@ -84,3 +84,35 @@ Here is the diagram:
 
 ![Terraform Diagram](images/terraform-concepts.png)
 
+
+### Set up the terraform with the command line in Linux/Ubuntu 
+
+
+
+---
+```go
+
+## Running Terraform from Your Workstation
+
+Terraform configuration files are written in **HashiCorp Configuration Language (HCL)**.  
+HCL is a declarative language that lets you define your infrastructure as code.  
+In this project, the selected cloud provider is **AWS**.
+
+### Diagram
+![Terraform Connect AWS](images/terraform-aws-apply.png)
+
+```
+---
+
+---
+```go
+## Running Terraform from Your Workstation (AWS Example)
+
+Terraform configuration files are written using **HashiCorp Configuration Language (HCL)**,  
+a declarative language for defining infrastructure as code.  
+In this project, Terraform provisions resources on **Amazon Web Services (AWS)**.
+
+### Diagram
+![Terraform Connect AWS](images/terraform-aws-apply.png)
+```
+---
