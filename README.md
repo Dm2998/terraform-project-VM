@@ -85,34 +85,42 @@ Here is the diagram:
 ![Terraform Diagram](images/terraform-concepts.png)
 
 
-### Set up the terraform with the command line in Linux/Ubuntu 
 
-
-
----
-```go
 
 ## Running Terraform from Your Workstation
 
-Terraform configuration files are written in **HashiCorp Configuration Language (HCL)**.  
-HCL is a declarative language that lets you define your infrastructure as code.  
-In this project, the selected cloud provider is **AWS**.
+Terraform uses HashiCorp Configuration Language (HCL) to define infrastructure as code.
+From your local machine **(or VS Code)**, Terraform reads the .tf
+ files and deploys resources to your cloud provider. **AWS**.
+
+- **Terraform validates the configuration.**
+
+- **Terraform authenticates to your cloud (AWS).**
+
+- **Terraform creates or destroys resources automatically.**
+
 
 ### Diagram
 ![Terraform Connect AWS](images/terraform-aws-apply.png)
 
-```
----
 
----
-```go
-## Running Terraform from Your Workstation (AWS Example)
 
-Terraform configuration files are written using **HashiCorp Configuration Language (HCL)**,  
-a declarative language for defining infrastructure as code.  
-In this project, Terraform provisions resources on **Amazon Web Services (AWS)**.
+## Terraform Creating an EC2 Instance on AWS.
+
+In this project, Terraform provisions cloud resources inside **Amazon Web Services (AWS)** — specifically an **EC2 virtual machine**.
+
+- **Selecting an AMI (machine image).**
+
+- **Choosing an instance type (e.g., t2.micro).**
+
+- **Creating the VM.**
+
+- **Assigning a public IP.**
+
+- **Both screenshots show the same EC2 instance ID (i-08b513df98796f3f4), verifying that the Terraform-created instance matches the one displayed in the AWS Console.**
+
+# Managing the lifecycle (create / update / destroy)
 
 ### Diagram
-![Terraform Connect AWS](images/terraform-aws-apply.png)
-```
----
+![Terraform Connect AWS](images/EC2insta.png)
+
