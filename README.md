@@ -1,9 +1,34 @@
 
-Practical , **Infratructure** with Terraform and AWS. 
+# Practical, **Infratructure** with Terraform and AWS Cloud. 
 
-# ⭐ **Commands to Set Up Your Terraform Environment.**
+## Table of Contents
 
-### Clone your repo:
+- [Overview](#overview)
+- [Badges](#badges)
+- [Prerequisites](#prerequisites)
+- [Clone the Repository](#clone-the-repository)
+- [Initialize Terraform](#initialize-terraform)
+- [Terraform Plan](#terraform-plan)
+- [Understanding Terraform Providers](#understanding-terraform-providers)
+- [Terraform Concepts Diagram](#terraform-concepts-diagram)
+- [Creating an EC2 Instance](#creating-an-ec2-instance)
+- [Instance ID Verification](#instance-id-verification)
+- [Diagrams](#diagrams)
+- [License](#license)
+
+This project demonstrates how to provision **cloud infrastructure** using **Terraform** and **Amazon Web Services (AWS)**. It includes provider configuration, resource creation, and instance verification.
+
+![Terraform Version](https://img.shields.io/badge/Terraform-1.14.0-623CE4?logo=terraform)
+![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)
+
+
+
+
+### **Commands to Set Up Your Terraform Environment.**
+
+### Clone the Repository
 ---
 ```sh
 
@@ -43,6 +68,8 @@ wget https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_linux_amd6
 
 ```
 <b>
+
+- **Extract and move Terraform:**
 
 ```bash
 root@ubuntu-terraform:~# ls
