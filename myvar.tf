@@ -1,7 +1,7 @@
 # file myvar.tf
 
 
-variable "myfirstvar" {
-    type = string
-    default = "Hello Terraform"
+variable "region" {
+  default = "us-east-2"
 }
+
