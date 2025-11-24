@@ -4,13 +4,15 @@
 
 # configuration file for AWS VM
 
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.0"
+    }
+  }
+}
+
 provider "aws" {
-    region = "us-west-2"
-    version = "~> 4.0"
+  region = var.region
 }
-
-provider "azurerm" {
-  version = "~> 3.0"
-    features {}
-}
-

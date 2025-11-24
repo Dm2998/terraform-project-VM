@@ -1,10 +1,11 @@
 # file createInstance.tf
 
 
-provider "aws" {
-    region = "us-west-2"
-    }
-respource "aws_instance" "myfirstinstance" {
-  ami           = "ami-0c7217cdde317cfec"
+resource "aws_instance" "myfirstinstance" {
+  ami           = "ami-05803413c51f242b7"
   instance_type = "t2.micro"
+
+  tags = {
+    Name = "MyTerraformInstance"
+  }
 }
