@@ -105,6 +105,26 @@ When you run Terraform code from your workstation:
 3. Terraform creates or updates the infrastructure you defined  
 
 
+# What is Terraform?
+
+- Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+- Terraform works with Docker, Kubernetes, Cloud.
+- Provision, manage, and maintain cloud resources like servers, networking, storage.
+- Terraform presently supports more than 70 providers.
+
+
+![Terraform Ecosystem.](images/te-Eco.png)
+
+- Configuration management tools install and manage software on a machine that already exists. Terraform is not a configuration management tool, and it allows existing tooling to focus on their strengths: bootstrapping and initializing resources.
+
+- Terraform focuses on the higher-level abstraction of the datacenter and associated services, while allowing you to use configuration management tools on individual systems. It also aims to bring the same benefits of codification of your system configuration to infrastructure management.
+
+- If you are using traditional configuration management within your compute instances, you can use Terraform to configure bootstrapping software like cloud-init to activate your configuration management software on first system boot.
+
+
+
+
+
 # Terraform Concepts
 
 Here is the diagram:
