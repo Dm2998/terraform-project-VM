@@ -113,7 +113,10 @@ When you run Terraform code from your workstation:
 - Terraform presently supports more than 70 providers.
 
 
-![Terraform Ecosystem.](images/te-Eco.png)
+
+![Terraform Ecosystem](images/Te-Eco.png)
+
+
 
 - Configuration management tools install and manage software on a machine that already exists. Terraform is not a configuration management tool, and it allows existing tooling to focus on their strengths: bootstrapping and initializing resources.
 
