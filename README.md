@@ -144,7 +144,7 @@ In this project, Terraform provisions cloud resources inside **Amazon Web Servic
 
 - **Assigning a public IP.**
 
-- **Both screenshots show the same EC2 instance ID (i-08b513df98796f3f4), verifying that the Terraform-created instance matches the one displayed in the AWS Console.**
+- **Both screenshots show the same EC2 instance ID (i-08b513df98796f3f4) 🧩, verifying that the Terraform-created instance matches the one displayed in the AWS Console.**
 
 # Managing the lifecycle (create / update / destroy)
 
