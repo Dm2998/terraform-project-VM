@@ -1,4 +1,14 @@
 
+![Terraform](https://img.shields.io/badge/Terraform-Infrastructure-623CE4?logo=terraform)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+
+<br>
+
+
+
 # Practical, **Infratructure** with Terraform and AWS Cloud. 
 
 ## Table of Contents
@@ -30,20 +40,22 @@ This project demonstrates how to provision **cloud infrastructure** using **Terr
 
 ### Clone the Repository
 ---
+---
 ```sh
 
 git clone https://github.com/Dm2998/terraform-project-VM.git
 cd terraform-project-VM
 ```
 ---
-
 ### Terraform Initialization
 
 Initialize the working directory so Terraform can download the required providers and modules:
 
+---
 ```
 terraform init 
 ```
+---
 
 ### Terraform Plan 
 
@@ -53,24 +65,29 @@ terraform plan
 
 ### Update the Virtual machine
 
+---
 ```bash
 
 sudo apt-get update
 
 ```
+---
 
 ### Download Terraform
 
 As a best Practice providers should be version in your Terraform config files
 
+---
 ```bash
 wget https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_linux_amd64.zip
 
 ```
+---
 <b>
 
 - **Extract and move Terraform:**
 
+---
 ```bash
 root@ubuntu-terraform:~# ls
 terraform_1.14.0_linux_amd64.zip
@@ -88,6 +105,7 @@ root@ubuntu-terraform:/usr/local/bin# terraform version
 Terraform v1.14.0
 on linux_amd64
 ```
+---
 
 ### Understanding Terraform Providers
 
@@ -174,3 +192,7 @@ In this project, Terraform provisions cloud resources inside **Amazon Web Servic
 ### Diagram
 ![Terraform Connect AWS](images/EC2insta.png)
 
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
